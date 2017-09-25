@@ -23,3 +23,15 @@
 .navbar-default .navbar-nav > li > a:focus{
   background-color: #ffdf3b;
 }
+
+.navbar-inverse .navbar-toggle{
+  border-color: #ffdf3b;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #ffdf3b;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+  background-color: pink;
+}
