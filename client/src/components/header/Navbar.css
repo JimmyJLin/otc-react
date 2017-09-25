@@ -1,0 +1,25 @@
+.navbar.navbar-default{
+  background-color: #444444;
+  background-image: none;
+}
+
+.navbar-default .navbar-nav > li > a{
+  text-decoration: none;
+  transition: 2s;
+  color: white;
+  text-shadow: none;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+  color: #ffdf3b;
+}
+
+.navbar-default .navbar-nav > .active > a{
+  background-image: none;
+  background-color: #ffdf3b;
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:focus{
+  background-color: #ffdf3b;
+}
