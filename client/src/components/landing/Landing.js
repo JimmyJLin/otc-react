@@ -1,7 +1,15 @@
 import React from 'react';
 import { Parallax, Background } from 'react-parallax';
-import { Button } from 'react-bootstrap';
+import { Button, Col, Grid, Row } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
+import seminars from './images/seminars.png';
+import register from './images/register.png';
+import faq from './images/faq.png';
+import hair_strokes from './images/hair_strokes.jpg';
+import powders from './images/powders.jpg';
+import lips from './images/lips.jpg';
+import eyeliners from './images/eyeliners.jpg';
+
 import './Landing.css';
 
 const Landing = () => {
@@ -18,12 +26,7 @@ const Landing = () => {
       <div className="parallax">
         <Parallax strength={500}>
           <Background>
-            <img src={"https://az616578.vo.msecnd.net/files/2016/09/07/6360888378872252421154338562_Beauty-e1426485286458.jpg"} alt="hair_strokes"/>
-            <div style={{
-               width: '100vw',
-               height: 'auto',
-               backgroundColor: '#450093'
-              }}></div>
+            <img id="parallax_img" src={hair_strokes} alt="hair_strokes"/>
           </Background>
           <div className="parallax_body">
             <h1>Hair Strokes</h1>
@@ -45,12 +48,7 @@ const Landing = () => {
       <div className="parallax">
         <Parallax strength={500}>
           <Background>
-            <img src={"https://az616578.vo.msecnd.net/files/2016/09/07/6360888378872252421154338562_Beauty-e1426485286458.jpg"} alt="hair_strokes"/>
-            <div style={{
-               width: '100vw',
-               height: 'auto',
-               backgroundColor: '#450093'
-              }}></div>
+            <img id="parallax_img" src={powders} alt="hair_strokes"/>
           </Background>
           <div className="parallax_body">
             <h1>Powdered</h1>
@@ -72,12 +70,7 @@ const Landing = () => {
       <div className="parallax">
         <Parallax strength={500}>
           <Background>
-            <img src={"https://az616578.vo.msecnd.net/files/2016/09/07/6360888378872252421154338562_Beauty-e1426485286458.jpg"} alt="hair_strokes"/>
-            <div style={{
-               width: '100vw',
-               height: 'auto',
-               backgroundColor: '#450093'
-              }}></div>
+            <img id="parallax_img" src={lips} alt="hair_strokes"/>
           </Background>
           <div className="parallax_body">
             <h1>Lips</h1>
@@ -99,12 +92,7 @@ const Landing = () => {
       <div className="parallax">
         <Parallax strength={500}>
           <Background>
-            <img src={"https://az616578.vo.msecnd.net/files/2016/09/07/6360888378872252421154338562_Beauty-e1426485286458.jpg"} alt="hair_strokes"/>
-            <div style={{
-               width: '100vw',
-               height: 'auto',
-               backgroundColor: '#450093'
-              }}></div>
+            <img id="parallax_img" src={eyeliners} alt="hair_strokes"/>
           </Background>
           <div className="parallax_body">
             <h1>Eyeliner</h1>
@@ -122,6 +110,44 @@ const Landing = () => {
           </div>
         </Parallax>
       </div>
+
+      <Grid id="category">
+        <Row className="show-grid">
+              <Col xs={18} sm={4} md={4} id="link_container">
+                <LinkContainer id="category_links" to={'/seminars'}>
+                <div id="list_items">
+                  <img id="category_img" src={seminars} alt="seminars" />
+                  <div className="box">
+                    <h3>Seminars</h3>
+                  </div>
+                </div>
+              </LinkContainer>
+              </Col>
+
+              <Col xs={18} sm={4} md={4} id="link_container">
+                <LinkContainer id="category_links" to={'/register'}>
+                <div id="list_items">
+                  <img id="category_img" src={register} alt="register" />
+                  <div className="box">
+                    <h3>Register</h3>
+                  </div>
+                </div>
+              </LinkContainer>
+              </Col>
+
+              <Col xs={18} sm={4} md={4} id="link_container">
+                <LinkContainer id="category_links" to={'/faq'}>
+                <div id="list_items">
+                  <img id="category_img" src={faq} alt="faq" />
+                  <div className="box">
+                    <h3>FAQs</h3>
+                  </div>
+                </div>
+              </LinkContainer>
+              </Col>
+        </Row>
+      </Grid>
+
 
     </div>
   );
