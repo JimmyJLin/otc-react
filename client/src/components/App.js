@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 import Header from './header/Header';
+import Footer from './footer/Footer';
 import Landing from './Landing';
 import Contact from './contact/Contact';
 import Faq from './faq/Faq';
@@ -34,6 +35,7 @@ class App extends Component {
             <Route exact path="/seminars/areola" component={Areola}/>
             <Route exact path="/seminars/hairlines" component={Hairlines}/>
             <Route exact path="/seminars/others" component={Others}/>
+            <Footer />
           </div>
         </BrowserRouter>
       </div>
