@@ -13,13 +13,16 @@ class Seminar extends Component {
           <LinkContainer to={el.url}>
             <Grid>
               <Row>
-                <Col xs={18} sm={6} md={7}>
-                  <img src={el.img_url} alt=""/>
+                <Col id="img_container" xs={18} sm={6} md={7}>
+                  <img id="seminar_img" src={el.img_url} alt=""/>
                 </Col>
                 <Col xs={18} sm={6} md={5}>
                   <h3 id="seminar_title">{el.title}</h3>
                   <p id="seminar_description">{el.description}</p>
-                    <p id="semiinar_url">FOR MORE INFO <span className="glyphicon glyphicon-chevron-right"></span></p>
+                  <p id="seminar_url">
+                    FOR MORE INFO
+                    <span className="glyphicon glyphicon-chevron-right"></span>
+                  </p>
                 </Col>
               </Row>
             </Grid>

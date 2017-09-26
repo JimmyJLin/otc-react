@@ -95,7 +95,7 @@
   "seminars":[
     {
       "id": "1",
-      "img_url": "/images/seminar/image_placeholder.jpg",
+      "img_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506452207/sample.jpg",
       "title": "Hair Strokes",
       "description": "The Hair Strokes Technique is often considered a type of permanent makeup, however, its concept is different: the ink is deposited with manual pen with blade which is 2 times thinner than average human hair and that allows technicians to draw crisp, thin and natural looking hairs.",
       "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
@@ -112,7 +112,7 @@
     },
     {
       "id": "2",
-      "img_url": "/images/seminar/image_placeholder.jpg",
+      "img_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506452207/sample.jpg",
       "title": "Powdered",
       "description": "The Powdered fill method involves the application of thousands of tiny little dots of pigment, inserted into the skin, gradually building up a colour and a defined shape. Hair Strokes method can be done on top of the Powered method for definitions.",
       "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
@@ -130,7 +130,7 @@
     },
     {
       "id": "3",
-      "img_url": "/images/seminar/image_placeholder.jpg",
+      "img_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506452207/sample.jpg",
       "title": "Lips",
       "description": "The Lip tattoos are designed to define lips, not to create volume or puffiness, it will give you the appearance of a full lip. Pigmentations can be inserted to obtain more natural lip color or more vibrant colors, retouch time frame varies depend on the desired colors.",
       "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
@@ -147,7 +147,7 @@
     },
     {
       "id": "4",
-      "img_url": "/images/seminar/image_placeholder.jpg",
+      "img_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506452207/sample.jpg",
       "title": "Eyeliners",
       "description": "Permanent eyeliner is placed in the lash line, which enhances and defines the beauty of the eyes. The technique is a very natural look and will make lashes appear thicker when not wearing mascara. It opens the eyes and makes them pop.",
       "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
@@ -164,7 +164,7 @@
     },
     {
       "id": "5",
-      "img_url": "/images/seminar/image_placeholder.jpg",
+      "img_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506452207/sample.jpg",
       "title": "Areola",
       "description": "The Areola repigmentation is an advanced procedure corrects the color, size and shape of the nipple. This procedures can use pigments and tints to create an illusion of nipple protrusion with a realistic areola on a breast mound without surgery.",
       "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
@@ -181,7 +181,7 @@
     },
     {
       "id": "6",
-      "img_url": "/images/seminar/image_placeholder.jpg",
+      "img_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506452207/sample.jpg",
       "title": "Hairlines",
       "description": "Hairline pigmentation technique helps re-create hairline stroke by stroke, rebuilding hairline, creating the appearance of volume, reclaiming what has been lost and giving the effect of lush, healthy hair.",
       "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
@@ -198,7 +198,7 @@
     },
     {
       "id": "7",
-      "img_url": "/images/seminar/image_placeholder.jpg",
+      "img_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506452207/sample.jpg",
       "title": "Others",
       "description": "For additional Advanced and Individualized Permanent Makeup Training Seminars.",
       "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
@@ -217,7 +217,7 @@
   "others": [
     {
       "id": "1",
-      "img_url": "/images/seminar/image_placeholder.jpg",
+      "img_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506452207/sample.jpg",
       "title": "One Day Microblading Intro",
       "description": "Introduction class to Permanent Makeup Microblading Technique, learn the essentials of Microblading and get certified.",
       "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
@@ -234,7 +234,7 @@
     },
     {
       "id": "2",
-      "img_url": "/images/seminar/image_placeholder.jpg",
+      "img_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506452207/sample.jpg",
       "title": "Five Days Microblading Seminar",
       "description": "All inclusive 5 Days seminar with Basic 3 Days Seminar + 2 additional days of hands-on training with our instructors.  School will provide one model and students can bring in as manay as 3 other models on the last two days.",
       "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
@@ -251,7 +251,7 @@
     },
     {
       "id": "3",
-      "img_url": "/images/seminar/image_placeholder.jpg",
+      "img_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506452207/sample.jpg",
       "title": "One on One Training",
       "description": "The training is design for any students who already taken the class and wants a 1 on 1 training with our instructor for any ONE service.",
       "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
@@ -268,7 +268,7 @@
     },
     {
       "id": "4",
-      "img_url": "/images/seminar/image_placeholder.jpg",
+      "img_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506452207/sample.jpg",
       "title": "Advanced Microblading",
       "description": "Advanced seminar for color corrections & shadow effect using Microblading Technique.",
       "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
