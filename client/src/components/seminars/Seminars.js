@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Col, Grid, Row } from 'react-bootstrap';
-import seminarData from './seminarData.json';
+import seminarData from '../../data/seminarData.json';
 import { LinkContainer } from 'react-router-bootstrap';
 import './seminars.css';
 

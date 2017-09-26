@@ -96,6 +96,7 @@
     {
       "id": "1",
       "img_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506452207/sample.jpg",
+      "landing_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506454274/hair_strokes_t1o0cr.jpg",
       "title": "Hair Strokes",
       "description": "The Hair Strokes Technique is often considered a type of permanent makeup, however, its concept is different: the ink is deposited with manual pen with blade which is 2 times thinner than average human hair and that allows technicians to draw crisp, thin and natural looking hairs.",
       "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
@@ -113,6 +114,7 @@
     {
       "id": "2",
       "img_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506452207/sample.jpg",
+      "landing_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506454274/powders_b4tsb5.jpg",
       "title": "Powdered",
       "description": "The Powdered fill method involves the application of thousands of tiny little dots of pigment, inserted into the skin, gradually building up a colour and a defined shape. Hair Strokes method can be done on top of the Powered method for definitions.",
       "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
@@ -131,6 +133,7 @@
     {
       "id": "3",
       "img_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506452207/sample.jpg",
+      "landing_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506454274/lips_b4an4v.jpg",
       "title": "Lips",
       "description": "The Lip tattoos are designed to define lips, not to create volume or puffiness, it will give you the appearance of a full lip. Pigmentations can be inserted to obtain more natural lip color or more vibrant colors, retouch time frame varies depend on the desired colors.",
       "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
@@ -148,6 +151,7 @@
     {
       "id": "4",
       "img_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506452207/sample.jpg",
+      "landing_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506454273/eyeliners_ewucfv.jpg",
       "title": "Eyeliners",
       "description": "Permanent eyeliner is placed in the lash line, which enhances and defines the beauty of the eyes. The technique is a very natural look and will make lashes appear thicker when not wearing mascara. It opens the eyes and makes them pop.",
       "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
@@ -165,6 +169,7 @@
     {
       "id": "5",
       "img_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506452207/sample.jpg",
+      "landing_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506454274/hair_strokes_t1o0cr.jpg",
       "title": "Areola",
       "description": "The Areola repigmentation is an advanced procedure corrects the color, size and shape of the nipple. This procedures can use pigments and tints to create an illusion of nipple protrusion with a realistic areola on a breast mound without surgery.",
       "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
@@ -182,6 +187,7 @@
     {
       "id": "6",
       "img_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506452207/sample.jpg",
+      "landing_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506454274/powders_b4tsb5.jpg",
       "title": "Hairlines",
       "description": "Hairline pigmentation technique helps re-create hairline stroke by stroke, rebuilding hairline, creating the appearance of volume, reclaiming what has been lost and giving the effect of lush, healthy hair.",
       "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
@@ -199,6 +205,7 @@
     {
       "id": "7",
       "img_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506452207/sample.jpg",
+      "landing_url": "http://res.cloudinary.com/dopoq28sr/image/upload/v1506454274/lips_b4an4v.jpg",
       "title": "Others",
       "description": "For additional Advanced and Individualized Permanent Makeup Training Seminars.",
       "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
