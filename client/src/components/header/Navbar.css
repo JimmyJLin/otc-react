@@ -6,6 +6,7 @@
 .navbar.navbar-default{
   background-color: #444444;
   background-image: none;
+  border-color: transparent;
 }
 
 .navbar-default .navbar-nav > li > a{
@@ -30,7 +31,7 @@
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu > li > a{
-  color: white;
+  color: #737373;
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
   color: #ffdf3b;
@@ -45,5 +46,5 @@
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
-  background-color: pink;
+  background-color: transparent;
 }
