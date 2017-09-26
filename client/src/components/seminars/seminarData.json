@@ -1,0 +1,287 @@
+{
+  "faq" : [
+    {
+      "id": "1",
+      "question": "How long is the Microblading Hair Stroke Technique Seminar?",
+      "answer": "The Microblading Hair Stroke Technique Seminar is 3 Days course starting every week on Monday through Wednesday and the class start from 10 am to 6 pm.",
+      "heading": "headingOne",
+      "collapse": "collapseOne"
+    },
+    {
+      "id": "2",
+      "question": "Will I be certified once the seminar is completed?",
+      "answer": "Each student will receive a Certificate of Completion from Outstanding Training Center.",
+      "heading": "headingTwo",
+      "collapse": "collapseTwo"
+    },
+    {
+      "id": "3",
+      "question": "How much is the Licensing Fee to be certified by the State of NY? How Long does it take to receive the actual license from the State of NY?",
+      "answer": "The Licensing fee for NY State is $126, which includes all the fees and application for the NY States Tattoo License from the NY States Health Department.",
+      "heading": "headingThree",
+      "collapse": "collapseThree"
+    },
+    {
+      "id": "4",
+      "question": "What’s included in the Microblading Seminar?",
+      "answer": "During the Microblading Seminar, we will go over different kinds of eyebrow tattoos, what are some of the trending methods and traditional techniques.  We will go over consultation, design, color blending, color corrections and various techniques and health department requirements for licensing.  During the 3 Days seminar, we will train some one with no experience or litle experience into a certified Microblading Hair Stroke Technique practitioner.",
+      "heading": "headingFour",
+      "collapse": "collapseFour"
+    },
+    {
+      "id": "5",
+      "question": "How’s the seminar structured? Who are the instructors?",
+      "answer": "We pride ourselves in providing a intimate learning experiences with no more than 10 students for each seminar.  And each of our instructors has over 10 years of Permanent Makeup Experiences.",
+      "heading": "headingFive",
+      "collapse": "collapseFive"
+    },
+    {
+      "id": "6",
+      "question": "What’s included in the $1800 Seminar Fee?",
+      "answer": "The $1800 Seminar fees includes, all the materials, equipments, and teaching materials for the entire 3 Days Seminar and also a $1,600 Professional Microblading Kit which can service up than 30 clients.",
+      "heading": "headingSix",
+      "collapse": "collapseSix"
+    },
+    {
+      "id": "7",
+      "question": "Does Outstanding Training Center offers advanced training seminar?",
+      "answer": "Yes, beside the basic Microblading Hair Stroke Technique, we us offer one day seminar on various other permanent makeup such as Lips, Eyeliner, Powdered Looks, Aeoeral Repigmentation and Hairline rejuvenation. ",
+      "heading": "headingSeven",
+      "collapse": "collapseSeven"
+    },
+    {
+      "id": "8",
+      "question": "I have prior Eyebrow Microblading experiences, can I still attend the Microblading Seminar?  And will the fee be the same?",
+      "answer": "Our Microblading Seminar is designed for both entry level with no prior experiences or practitioners with prior experience who just wants some advanced Microblading training.",
+      "heading": "headingEight",
+      "collapse": "collapseEight"
+    },
+    {
+      "id": "9",
+      "question": "Will the live model be provided for my own practices?",
+      "answer": "Each students are encouraged to bring their own model during the live model portion of the seminar and if not we have synthetic skins for eah students to practice on as well.",
+      "heading": "headingNine",
+      "collapse": "collapseNine"
+    },
+    {
+      "id": "10",
+      "question": "Do you sell products for the Permanent Makeup procedures?",
+      "answer": "Yes, each of the students will be able to purchase products directly through us and each students will receive 20% OFF all products and future seminars.",
+      "heading": "headingTen",
+      "collapse": "collapseTen"
+    },
+    {
+      "id": "11",
+      "question": "How can I purchase products for the Permanent Makeup procedures?",
+      "answer": "We can be reach at 646-902-1678 / 917-383-3368 or email us at outstandingtrainingcenter@gmail.com.  When calling us please provide the member service team your main contact phone number you provided to us when you first attened any of our training seminars, that is your account phone number.  Only our members can purchase products from Outstanding Training Center.",
+      "heading": "headingEleven",
+      "collapse": "collapseEleven"
+    },
+    {
+      "id": "12",
+      "question": "Can I purchase products from Outstanding Training Center without being a member?",
+      "answer": "No, we only wholesale products to member students who have been trained by the Outstanding Training Center, to ensure each members have the proper training in using our professional products for the permanent makeup services.",
+      "heading": "headingTwelve",
+      "collapse": "collapseTwelve"
+    },
+    {
+      "id": "13",
+      "question": "Can a member client order products through online portals?",
+      "answer": "We are in the process of developing a online portal for all our members to purchase product directly, until the portal is completed, in the mean time please call or email us to place an order with Outstanding Training Center.",
+      "heading": "headingThirteen",
+      "collapse": "collapseThirteen"
+    }
+  ],
+  "seminars":[
+    {
+      "id": "1",
+      "img_url": "/images/seminar/image_placeholder.jpg",
+      "title": "Hair Strokes",
+      "description": "The Hair Strokes Technique is often considered a type of permanent makeup, however, its concept is different: the ink is deposited with manual pen with blade which is 2 times thinner than average human hair and that allows technicians to draw crisp, thin and natural looking hairs.",
+      "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "url": "/seminars/hair_strokes",
+      "type": "Basic",
+      "length": "Three Days Class",
+      "model": "Live Model Demonstration and Hands on Model Training",
+      "model_details": "On the last day of the 3 Days Training, there will be live demonstration of the Microblading Technique by our experienced instructor and in the afternoon each students will get an opportunity to demonstrate what they learn through live models (each students needs to bring their own model).",
+      "starter_kit": "$1600 Premimum Kit",
+      "starter_kit_details": "Each student will receive a premimum starter kits including: various colors, microblading pen & needles, various support proucts such as anesthetic and retail products.",
+      "benefits": "20% OFF all products & classes.",
+      "benefits_details": "After attending any of our seminar, each students will be able to purchase products directly through us and receive 20% OFF all purchases and any future seminars.",
+      "fee": "1800"
+    },
+    {
+      "id": "2",
+      "img_url": "/images/seminar/image_placeholder.jpg",
+      "title": "Powdered",
+      "description": "The Powdered fill method involves the application of thousands of tiny little dots of pigment, inserted into the skin, gradually building up a colour and a defined shape. Hair Strokes method can be done on top of the Powered method for definitions.",
+      "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "url": "/seminars/powdered",
+      "type": "Advanced",
+      "length": "One Day Class",
+      "model": "Live Model Demonstration and Hands on Model Training",
+      "model_details": "On the day of Seminar, there will be live demonstration of the Microblading Technique by our experienced instructor and in the afternoon each students will get an opportunity to demonstrate what they learn through live models (each students needs to bring their own model).",
+      "starter_kit": "$800 Premimum Kit",
+      "starter_kit_details": "Each student will receive a premimum starter kits including: various colors, pen & needles, various support proucts such as anesthetic and retail products.",
+      "benefits": "20% OFF all products & classes.",
+      "benefits": "20% OFF all products & classes",
+      "benefits_details": "After attending any of our seminar, each students will be able to purchase products directly through us and receive 20% OFF all purchases and any future seminars.",
+      "fee": "1000"
+    },
+    {
+      "id": "3",
+      "img_url": "/images/seminar/image_placeholder.jpg",
+      "title": "Lips",
+      "description": "The Lip tattoos are designed to define lips, not to create volume or puffiness, it will give you the appearance of a full lip. Pigmentations can be inserted to obtain more natural lip color or more vibrant colors, retouch time frame varies depend on the desired colors.",
+      "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "url": "/seminars/lips",
+      "type": "Advanced",
+      "length": "One Day Class",
+      "model": "Live Model Demonstration and Hands on Model Training",
+      "model_details": "Each student will receive a premimum starter kits including: various colors, pen & needles, various support proucts such as anesthetic and retail products.",
+      "starter_kit": "$1400 Premimum Kit",
+      "starter_kit_details": "On the day of Seminar, there will be live demonstration of the Microblading Technique by our experienced instructor and in the afternoon each students will get an opportunity to demonstrate what they learn through live models (each students needs to bring their own model).",
+      "benefits": "20% OFF all products & classes",
+      "benefits_details": "After attending any of our seminar, each students will be able to purchase products directly through us and receive 20% OFF all purchases and any future seminars.",
+      "fee": "1200"
+    },
+    {
+      "id": "4",
+      "img_url": "/images/seminar/image_placeholder.jpg",
+      "title": "Eyeliners",
+      "description": "Permanent eyeliner is placed in the lash line, which enhances and defines the beauty of the eyes. The technique is a very natural look and will make lashes appear thicker when not wearing mascara. It opens the eyes and makes them pop.",
+      "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "url": "/seminars/eyeliners",
+      "type": "Advanced",
+      "length": "One Day Class",
+      "model": "Live Model Demonstration and Hands on Model Training",
+      "model_details": "On the day of Seminar, there will be live demonstration of the Microblading Technique by our experienced instructor and in the afternoon each students will get an opportunity to demonstrate what they learn through live models (each students needs to bring their own model).",
+      "starter_kit": "$800 Premimum Kit",
+      "starter_kit_details": "Each student will receive a premimum starter kits including: various colors, pen & needles, various support proucts such as anesthetic and retail products.",
+      "benefits": "20% OFF all products & classes",
+      "benefits_details": "After attending any of our seminar, each students will be able to purchase products directly through us and receive 20% OFF all purchases and any future seminars.",
+      "fee": "1000"
+    },
+    {
+      "id": "5",
+      "img_url": "/images/seminar/image_placeholder.jpg",
+      "title": "Areola",
+      "description": "The Areola repigmentation is an advanced procedure corrects the color, size and shape of the nipple. This procedures can use pigments and tints to create an illusion of nipple protrusion with a realistic areola on a breast mound without surgery.",
+      "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "url": "/seminars/areola",
+      "type": "Advanced",
+      "length": "One Day Class",
+      "model": "Live Model Demonstration and Hands on Model Training",
+      "model_details": "On the day of Seminar, there will be live demonstration of the Microblading Technique by our experienced instructor and in the afternoon each students will get an opportunity to demonstrate what they learn through live models (each students needs to bring their own model).",
+      "starter_kit": "$800 Premimum Kit",
+      "starter_kit_details": "Each student will receive a premimum starter kits including: various colors, pen & needles, various support proucts such as anesthetic and retail products.",
+      "benefits": "20% OFF all products & classes",
+      "benefits_details": "After attending any of our seminar, each students will be able to purchase products directly through us and receive 20% OFF all purchases and any future seminars.",
+      "fee": "1000"
+    },
+    {
+      "id": "6",
+      "img_url": "/images/seminar/image_placeholder.jpg",
+      "title": "Hairlines",
+      "description": "Hairline pigmentation technique helps re-create hairline stroke by stroke, rebuilding hairline, creating the appearance of volume, reclaiming what has been lost and giving the effect of lush, healthy hair.",
+      "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "url": "/seminars/hairlines",
+      "type": "Advanced",
+      "length": "One Day Class",
+      "model": "Live Model Demonstration and Hands on Model Training",
+      "model_details": "On the day of Seminar, there will be live demonstration of the Microblading Technique by our experienced instructor and in the afternoon each students will get an opportunity to demonstrate what they learn through live models (each students needs to bring their own model).",
+      "starter_kit": "$800 Premimum Kit",
+      "starter_kit_details": "Each student will receive a premimum starter kits including: various colors, pen & needles, various support proucts such as anesthetic and retail products.",
+      "benefits": "20% OFF all products & classes",
+      "benefits_details": "After attending any of our seminar, each students will be able to purchase products directly through us and receive 20% OFF all purchases and any future seminars.",
+      "fee": "1000"
+    },
+    {
+      "id": "7",
+      "img_url": "/images/seminar/image_placeholder.jpg",
+      "title": "Others",
+      "description": "For additional Advanced and Individualized Permanent Makeup Training Seminars.",
+      "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "url": "/seminars/others",
+      "type": "Advanced",
+      "length": "One Day Class",
+      "model": "Live Model Demonstration and Hands on Model Training",
+      "model_details": "On the day of Seminar, there will be live demonstration of the Microblading Technique by our experienced instructor and in the afternoon each students will get an opportunity to demonstrate what they learn through live models (each students needs to bring their own model).",
+      "starter_kit": "$800 Premimum Kit",
+      "starter_kit_details": "Each student will receive a premimum starter kits including: various colors, pen & needles, various support proucts such as anesthetic and retail products.",
+      "benefits": "20% OFF all products & classes",
+      "benefits_details": "After attending any of our seminar, each students will be able to purchase products directly through us and receive 20% OFF all purchases and any future seminars.",
+      "fee": "1000"
+    }
+  ],
+  "others": [
+    {
+      "id": "1",
+      "img_url": "/images/seminar/image_placeholder.jpg",
+      "title": "One Day Microblading Intro",
+      "description": "Introduction class to Permanent Makeup Microblading Technique, learn the essentials of Microblading and get certified.",
+      "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "url": "/seminars/others",
+      "type": "Baisc",
+      "length": "One Day Class",
+      "model": "Live Model Demonstration and Hands on Model Training",
+      "model_details": "On the day of Seminar, there will be live demonstration of the Microblading Technique by our experienced instructor.",
+      "starter_kit": "no Kit",
+      "starter_kit_details": "Each students will have to purchase their own necessary equipments and products.",
+      "benefits": "20% OFF all products & classes",
+      "benefits_details": "After attending any of our seminar, each students will be able to purchase products directly through us and receive 20% OFF all purchases and any future seminars.  And if students are interested in 3 Days Microblading Seminar, the fee paid can be use a credit toward the full 3 Days Seminar.",
+      "fee": "1000"
+    },
+    {
+      "id": "2",
+      "img_url": "/images/seminar/image_placeholder.jpg",
+      "title": "Five Days Microblading Seminar",
+      "description": "All inclusive 5 Days seminar with Basic 3 Days Seminar + 2 additional days of hands-on training with our instructors.  School will provide one model and students can bring in as manay as 3 other models on the last two days.",
+      "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "url": "/seminars/others",
+      "type": "Baisc",
+      "length": "Five Day Class",
+      "model": "Live Model Demonstration and Hands on Model Training",
+      "model_details": "On the day of Seminar, there will be live demonstration of the Microblading Technique by our experienced instructor and in the afternoon each students will get an opportunity to demonstrate what they learn through live models (each students needs to bring their own model).",
+      "starter_kit": "$1600 Premimum Kit",
+      "starter_kit_details": "Each student will receive a premimum starter kits including: various colors, microblading pen & needles, various support proucts such as anesthetic and retail products.",
+      "benefits": "20% OFF all products & classes",
+      "benefits_details": "After attending any of our seminar, each students will be able to purchase products directly through us and receive 20% OFF all purchases and any future seminars.",
+      "fee": "5000"
+    },
+    {
+      "id": "3",
+      "img_url": "/images/seminar/image_placeholder.jpg",
+      "title": "One on One Training",
+      "description": "The training is design for any students who already taken the class and wants a 1 on 1 training with our instructor for any ONE service.",
+      "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "url": "/seminars/others",
+      "type": "Baisc",
+      "length": "Half Day Class",
+      "model": "Hands on Model Training",
+      "model_details": "Each students is required to bring their own model.",
+      "starter_kit": "no Kit",
+      "starter_kit_details": "Each students will have to purchase their own necessary equipments and products.",
+      "benefits": "20% OFF all products & classes",
+      "benefits_details": "After attending any of our seminar, each students will be able to purchase products directly through us and receive 20% OFF all purchases and any future seminars.",
+      "fee": "200"
+    },
+    {
+      "id": "4",
+      "img_url": "/images/seminar/image_placeholder.jpg",
+      "title": "Advanced Microblading",
+      "description": "Advanced seminar for color corrections & shadow effect using Microblading Technique.",
+      "additional_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "url": "/seminars/others",
+      "type": "Advanced",
+      "length": "One Day Class",
+      "model": "Live Model Demonstration and Hands on Model Training",
+      "starter_kit": "$800 Premimum Kit",
+      "starter_kit_details": "Each student will receive a premimum starter kits including: various colors, microblading pen & needles, various support proucts such as anesthetic and retail products.",
+      "benefits": "20% OFF all products & classes",
+      "benefits_details": "After attending any of our seminar, each students will be able to purchase products directly through us and receive 20% OFF all purchases and any future seminars.",
+      "fee": "1000"
+    }
+  ]
+
+}

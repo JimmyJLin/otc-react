@@ -113,38 +113,38 @@ const Landing = () => {
 
       <Grid id="category">
         <Row className="show-grid">
-              <Col xs={18} sm={4} md={4} id="link_container">
-                <LinkContainer id="category_links" to={'/seminars'}>
-                <div id="list_items">
-                  <img id="category_img" src={seminars} alt="seminars" />
-                  <div className="box">
-                    <h3>Seminars</h3>
-                  </div>
-                </div>
-              </LinkContainer>
-              </Col>
+          <Col xs={18} sm={4} md={4} id="link_container">
+            <LinkContainer id="category_links" to={'/seminars'}>
+            <div id="list_items">
+              <img id="category_img" src={seminars} alt="seminars" />
+              <div className="box">
+                <h3>Seminars</h3>
+              </div>
+            </div>
+          </LinkContainer>
+          </Col>
 
-              <Col xs={18} sm={4} md={4} id="link_container">
-                <LinkContainer id="category_links" to={'/register'}>
-                <div id="list_items">
-                  <img id="category_img" src={register} alt="register" />
-                  <div className="box">
-                    <h3>Register</h3>
-                  </div>
-                </div>
-              </LinkContainer>
-              </Col>
+          <Col xs={18} sm={4} md={4} id="link_container">
+            <LinkContainer id="category_links" to={'/register'}>
+            <div id="list_items">
+              <img id="category_img" src={register} alt="register" />
+              <div className="box">
+                <h3>Register</h3>
+              </div>
+            </div>
+          </LinkContainer>
+          </Col>
 
-              <Col xs={18} sm={4} md={4} id="link_container">
-                <LinkContainer id="category_links" to={'/faq'}>
-                <div id="list_items">
-                  <img id="category_img" src={faq} alt="faq" />
-                  <div className="box">
-                    <h3>FAQs</h3>
-                  </div>
-                </div>
-              </LinkContainer>
-              </Col>
+          <Col xs={18} sm={4} md={4} id="link_container">
+            <LinkContainer id="category_links" to={'/faq'}>
+            <div id="list_items">
+              <img id="category_img" src={faq} alt="faq" />
+              <div className="box">
+                <h3>FAQs</h3>
+              </div>
+            </div>
+          </LinkContainer>
+          </Col>
         </Row>
       </Grid>
 
