@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import seminarData from '../../data/seminarData.json';
+import SeminarComponent from './SeminarComponent';
 
 class Powdered extends Component {
   render() {
+    const values = seminarData.seminars[1]
+
     return (
       <div className="container-fluid">
-        <h2>Powdered Page</h2>
+        <SeminarComponent values={values}/>
       </div>
     );
   }

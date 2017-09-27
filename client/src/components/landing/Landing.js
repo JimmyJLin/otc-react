@@ -39,7 +39,7 @@ class Landing extends Component {
             </Background>
           </Parallax>
           <div className="parallax_body">
-            <h1>{ el.title }</h1>
+            <h1>{ el.title.toUpperCase() }</h1>
             <h3>Permanent Makeup</h3>
             <div className="section_text">
               <p>{ el.description }</p>

@@ -1,5 +1,5 @@
 
-.btn-default{
+.btn, .btn.active{
   transition-duration: 2s;
   background-image: none;
   text-shadow: none;
@@ -8,7 +8,7 @@
   color: #ffffff;
   box-shadow: 1px 5px 10px rgba(0,0,0,0.4);
 }
-.btn-default:hover{
+.btn:hover, .btn.active:hover{
   background-color: #ffdf3b;
   color: #444444;
   box-shadow: none;
