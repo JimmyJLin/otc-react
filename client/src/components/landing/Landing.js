@@ -1,24 +1,43 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Parallax, Background } from 'react-parallax';
-import { Button, Col, Grid, Row } from 'react-bootstrap';
+import { Col, Grid, Row } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import seminarData from '../../data/seminarData.json';
-
-import hair_strokes from './images/hair_strokes.jpg';
-import powders from './images/powders.jpg';
-import lips from './images/lips.jpg';
-import eyeliners from './images/eyeliners.jpg';
+import Button from '../common/Button'
 
 import './Landing.css';
 
-const Landing = () => {
-  const parallax = seminarData.seminars.map((el) => {
-    return (
-      <div key={ el.id } className="parallax">
-        <Parallax strength={500}>
-          <Background>
-            <img id="parallax_img" src={ el.landing_url } alt={ el.title }/>
-          </Background>
+const CATEGORIES = [
+  {
+    name: 'seminars',
+    imgUrl: 'http://res.cloudinary.com/dopoq28sr/image/upload/v1506454275/seminars_navexh.png',
+    pathUrl: '/seminars',
+    title: 'Seminars'
+  },
+  {
+    name: 'register',
+    imgUrl: 'http://res.cloudinary.com/dopoq28sr/image/upload/v1506454275/register_c1bfxj.png',
+    pathUrl: '/register',
+    title: 'Register'
+  },
+  {
+    name: 'faq',
+    imgUrl: 'http://res.cloudinary.com/dopoq28sr/image/upload/v1506454275/faq_s2mnto.png',
+    pathUrl: '/faq',
+    title: 'FAQs'
+  }
+]
+
+class Landing extends Component {
+  renderParallax(){
+    return seminarData.seminars.map((el) => {
+      return (
+        <div key={ el.id } className="parallax">
+          <Parallax strength={500}>
+            <Background>
+              <img id="parallax_img" src={ el.landing_url } alt={ el.title }/>
+            </Background>
+          </Parallax>
           <div className="parallax_body">
             <h1>{ el.title }</h1>
             <h3>Permanent Makeup</h3>
@@ -27,73 +46,54 @@ const Landing = () => {
             </div>
             <div className="section_footer">
               <LinkContainer to={ el.url }>
-                <Button>
-                  Get More Info
-                </Button>
+                <Button name={'Get More Info'}/>
               </LinkContainer>
             </div>
           </div>
-        </Parallax>
+        </div>
+      )
+    })
+  }
+
+  renderCategories() {
+    return CATEGORIES.map(({name, imgUrl, pathUrl, title}) => {
+      return (
+        <Col key={name} xs={18} sm={4} md={4} id="link_container">
+            <LinkContainer id="category_links" to={pathUrl}>
+            <div id="list_items">
+              <img id="category_img" src={imgUrl} alt={name} />
+              <div className="box">
+                <h3>{title}</h3>
+              </div>
+            </div>
+          </LinkContainer>
+        </Col>
+      )
+    })
+  }
+
+
+  render(){
+    return (
+      <div style={{ textAlign: 'center' }}>
+        <div id="top_headline">
+          <h2>
+            Microblading The #1 Beauty Trends In 2017 - SELF
+          </h2>
+          <h4>
+            It's never too late to learn something New!
+          </h4>
+        </div>
+        { this.renderParallax() }
+        <div id="h_line" className="center-block"></div>
+        <Grid id="category">
+          <Row className="show-grid">
+            { this.renderCategories() }
+          </Row>
+        </Grid>
       </div>
-    )
-  })
-
-  return (
-    <div style={{ textAlign: 'center' }}>
-      <div id="top_headline">
-        <h2>
-          Microblading The #1 Beauty Trends In 2017 - SELF
-        </h2>
-        <h4>
-          It's never too late to learn something New!
-        </h4>
-      </div>
-
-      { parallax }
-
-
-      <div id="h_line" className="center-block"></div>
-
-      <Grid id="category">
-        <Row className="show-grid">
-          <Col xs={18} sm={4} md={4} id="link_container">
-            <LinkContainer id="category_links" to={'/seminars'}>
-            <div id="list_items">
-              <img id="category_img" src={'http://res.cloudinary.com/dopoq28sr/image/upload/v1506454275/seminars_navexh.png'} alt="seminars" />
-              <div className="box">
-                <h3>Seminars</h3>
-              </div>
-            </div>
-          </LinkContainer>
-          </Col>
-
-          <Col xs={18} sm={4} md={4} id="link_container">
-            <LinkContainer id="category_links" to={'/register'}>
-            <div id="list_items">
-              <img id="category_img" src={'http://res.cloudinary.com/dopoq28sr/image/upload/v1506454275/register_c1bfxj.png'} alt="register" />
-              <div className="box">
-                <h3>Register</h3>
-              </div>
-            </div>
-          </LinkContainer>
-          </Col>
-
-          <Col xs={18} sm={4} md={4} id="link_container">
-            <LinkContainer id="category_links" to={'/faq'}>
-            <div id="list_items">
-              <img id="category_img" src={'http://res.cloudinary.com/dopoq28sr/image/upload/v1506454275/faq_s2mnto.png'} alt="faq" />
-              <div className="box">
-                <h3>FAQs</h3>
-              </div>
-            </div>
-          </LinkContainer>
-          </Col>
-        </Row>
-      </Grid>
-
-
-    </div>
-  );
+    );
+  }
 };
 
 export default Landing;

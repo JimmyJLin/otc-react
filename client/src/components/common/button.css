@@ -1,0 +1,15 @@
+
+.btn-default{
+  transition-duration: 2s;
+  background-image: none;
+  text-shadow: none;
+  border: transparent;
+  background-color: #444444;
+  color: #ffffff;
+  box-shadow: 1px 5px 10px rgba(0,0,0,0.4);
+}
+.btn-default:hover{
+  background-color: #ffdf3b;
+  color: #444444;
+  box-shadow: none;
+}

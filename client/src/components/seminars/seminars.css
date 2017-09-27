@@ -9,6 +9,14 @@
   padding-bottom: 50px;
 }
 
+#seminar_title, #seminar_description{
+  padding-bottom: 15px;
+}
+
+#seminar_title{
+  font-weight: bold;
+}
+
 #seminar_img, #seminar_url{
   transition-duration: 2s;
 }

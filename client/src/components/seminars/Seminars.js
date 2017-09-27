@@ -17,7 +17,7 @@ class Seminar extends Component {
                   <img id="seminar_img" src={el.img_url} alt=""/>
                 </Col>
                 <Col xs={18} sm={6} md={5}>
-                  <h3 id="seminar_title">{el.title}</h3>
+                  <h3 id="seminar_title">{el.title.toUpperCase()}</h3>
                   <p id="seminar_description">{el.description}</p>
                   <p id="seminar_url">
                     FOR MORE INFO
