@@ -45,9 +45,9 @@ class Landing extends Component {
               <p>{ el.description }</p>
             </div>
             <div className="section_footer">
-              <LinkContainer to={ el.url }>
-                <Button name={'Get More Info'}/>
-              </LinkContainer>
+              {/* <LinkContainer to={ el.url }>
+              </LinkContainer> */}
+                <Button name={'Get More Info'} url={el.url}/>
             </div>
           </div>
         </div>
