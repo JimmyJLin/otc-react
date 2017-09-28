@@ -42,7 +42,11 @@
 
 #seminars-list #seminar_title {
   padding-top: 10%;
+  padding-bottom: 5%;
   font-weight: bold; }
+
+#seminars-list #seminar_description {
+  padding-bottom: 5%; }
 
 #seminars-list #seminar_img {
   width: 100%;
