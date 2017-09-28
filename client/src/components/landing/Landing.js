@@ -5,7 +5,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 import seminarData from '../../data/seminarData.json';
 import Button from '../common/Button'
 
-import './Landing.css';
+import './_landing.scss';
 
 const CATEGORIES = [
   {
@@ -38,15 +38,13 @@ class Landing extends Component {
               <img id="parallax_img" src={ el.landing_url } alt={ el.title }/>
             </Background>
           </Parallax>
-          <div className="parallax_body">
+          <div id="parallax_body">
             <h1>{ el.title.toUpperCase() }</h1>
             <h3>Permanent Makeup</h3>
             <div className="section_text">
               <p>{ el.description }</p>
             </div>
             <div className="section_footer">
-              {/* <LinkContainer to={ el.url }>
-              </LinkContainer> */}
                 <Button name={'Get More Info'} url={el.url}/>
             </div>
           </div>

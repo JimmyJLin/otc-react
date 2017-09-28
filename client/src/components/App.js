@@ -16,7 +16,7 @@ import Areola from './seminars/Areola';
 import Hairlines from './seminars/Hairlines';
 import Others from './seminars/Others';
 
-import './app.css'
+import './App.css'
 
 class App extends Component {
   render() {

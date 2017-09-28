@@ -1,0 +1,61 @@
+
+// Header css
+#top_headline{
+
+}
+// Header css ends here
+
+// Parallax css
+.parallax{
+
+  .react-parallax{
+    height: 300px;
+  }
+
+  #parallax_body{
+    padding: 25px 25px;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .section_footer, .section_text{
+    padding-top: 25px;
+  }
+
+  .section_footer{
+    padding-bottom: 25px;
+  }
+
+  #parallax_img{
+    width: auto;
+  }
+}
+// Parallax css ends here
+
+// Category css
+#category{
+  margin-top: 50px;
+
+  #link_container{
+    overflow: hidden;
+  }
+
+  #category_links{
+    overflow: hidden;
+    cursor: pointer;
+    transition-duration: 2s;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #category_links:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  #category_img{
+    width: 100%;
+    height: auto;
+  }
+}
+// Category css ends ehre

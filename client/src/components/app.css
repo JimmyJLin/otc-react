@@ -1,9 +1,99 @@
+.parallax .react-parallax {
+  height: 300px; }
 
-#h_line{
+.parallax #parallax_body {
+  padding: 25px 25px;
+  background-color: rgba(255, 255, 255, 0.6); }
+
+.parallax .section_footer, .parallax .section_text {
+  padding-top: 25px; }
+
+.parallax .section_footer {
+  padding-bottom: 25px; }
+
+.parallax #parallax_img {
+  width: auto; }
+
+#category {
+  margin-top: 50px; }
+  #category #link_container {
+    overflow: hidden; }
+  #category #category_links {
+    overflow: hidden;
+    cursor: pointer;
+    transition-duration: 2s;
+    padding-left: 0px;
+    padding-right: 0px; }
+  #category #category_links:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  #category #category_img {
+    width: 100%;
+    height: auto; }
+
+.navbar {
+  margin-bottom: 0px;
+  box-shadow: 0px 1px 22px 2px rgba(0, 0, 0, 0.4); }
+
+.navbar.navbar-default {
+  background-color: #444444;
+  background-image: none;
+  border-color: transparent; }
+
+.navbar-default .navbar-nav > li > a {
+  text-decoration: none;
+  transition: 2s;
+  color: white;
+  text-shadow: none; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ffdf3b; }
+
+.navbar-default .navbar-nav > .active > a {
+  background-image: none;
+  background-color: #ffdf3b;
+  color: white; }
+
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: #ffdf3b; }
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #737373; }
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+  color: #ffdf3b; }
+
+.navbar-inverse .navbar-toggle {
+  border-color: #ffdf3b; }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffdf3b; }
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: transparent; }
+
+.btn, .btn.active {
+  transition-duration: 2s;
+  background-image: none;
+  text-shadow: none;
+  border: transparent;
+  background-color: #444444;
+  color: #ffffff;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.4); }
+
+.btn:hover, .btn.active:hover {
+  background-color: #ffdf3b;
+  color: #444444;
+  box-shadow: none; }
+
+#h_line {
   padding-top: 25px;
   padding-bottom: 25px;
   width: 30%;
   border-bottom-width: medium;
   border-bottom-style: solid;
-  border-bottom-color:#ffdf3b;
-}
+  border-bottom-color: #ffdf3b; }
+
+body {
+  padding-top: 80px; }

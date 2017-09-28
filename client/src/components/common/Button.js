@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-import './button.css';
+import './_button.scss';
 
 export default ({name, url}) =>{
     return (
