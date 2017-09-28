@@ -8,7 +8,7 @@ import './_navbar.scss';
 class Header extends Component {
   render() {
     return (
-      <div>
+      <div id="navbar">
         <Navbar collapseOnSelect fixedTop={true}>
 
           <Navbar.Header>
