@@ -1,11 +1,13 @@
+@import 'variables';
+
 @import 'landing/landing';
 @import 'seminars/seminars';
 @import 'seminars/seminarComponent';
 @import 'header/navbar';
 @import 'footer/footer';
 @import 'common/button';
+@import 'faq/faq';
 
-@import 'variables';
 
 #h_line{
   padding-top: 25px;

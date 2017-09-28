@@ -1,10 +1,28 @@
 import React, { Component } from 'react';
+import { Accordion, Panel } from 'react-bootstrap';
+
+import seminarData from '../../data/seminarData.json';
+import './_faq.scss'
 
 class Faq extends Component {
+  renderFaq() {
+    return seminarData.faq.map(({id, question, answer}) => {
+      return (
+        <Panel header={question} eventKey={id}>
+          {answer}
+        </Panel>
+      )
+    })
+  }
   render() {
     return (
-      <div className="container-fluid">
-        <h2>Faq Page</h2>
+      <div id="faq" className="container-fluid">
+        <h2>FAQs</h2>
+        <div>
+          <Accordion>
+            {this.renderFaq()}
+          </Accordion>
+        </div>
       </div>
     );
   }

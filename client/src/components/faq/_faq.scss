@@ -1,0 +1,21 @@
+#faq{
+  padding: 0 15%;
+    @include small {
+      padding: 0 5%;
+    }
+    @include medium {
+      padding: 0 5%;
+    }
+    @include large {
+      padding: 0 5%;
+    }
+
+  h2{
+    text-align: center;
+    padding-bottom: 25px;
+  }
+
+  .panel{
+    cursor: pointer;
+  }
+}
