@@ -21,7 +21,7 @@ class Header extends Component {
           </Navbar.Header>
 
           <Navbar.Collapse>
-            <Nav>
+            <Nav pullRight>
               <NavDropdown eventKey={1} title="Seminars" id="basic-nav-dropdown">
                 <LinkContainer to={'/seminars/hair_strokes'}>
                   <MenuItem eventKey={1.1}>Hair Strokes</MenuItem>
