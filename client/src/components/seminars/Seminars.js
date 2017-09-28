@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Col, Grid, Row } from 'react-bootstrap';
 import seminarData from '../../data/seminarData.json';
 import { LinkContainer } from 'react-router-bootstrap';
-import './seminars.css';
+import './_seminars.scss';
 
 class Seminar extends Component {
 
@@ -32,13 +32,13 @@ class Seminar extends Component {
     })
 
     return (
-      <div className="container-fluid">
+      <div id="all_seminars" className="container-fluid">
         <div id="index-top">
           <h3>Microblading The #1 Beauty Trends In 2017 - SELF</h3>
           <h4>It's never too late to learn something New!</h4>
         </div>
 
-        <div>{ seminars }</div>
+        <div id="seminars-list">{ seminars }</div>
       </div>
     );
   }

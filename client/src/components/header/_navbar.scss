@@ -1,7 +1,9 @@
+@import '../variables';
+
 #navbar{
 
   .navbar{
-    background-color: #444444;
+    background-color: $g_black_grey_color;
     background-image: none;
     a {
       margin: 5px 5px;
@@ -14,8 +16,8 @@
     .active{
       a{
         background-image: none;
-        background-color: #ffdf3b;
-        color: #444444;
+        background-color: $g_yellow;
+        color: $g_black_grey_color;
       }
     }
     a{
@@ -23,8 +25,35 @@
       text-shadow: none;
     }
     a:hover{
-      color: #ffdf3b;
+      color: $g_yellow;
     }
+  }
+
+  .navbar-brand{
+    @include small{
+      width: 75%;
+      padding: 15px 3px;
+    }
+    @include medium{
+      padding: 15px 3px;
+    }
+  }
+
+  .navbar-toggle{
+    @include medium{
+      margin-top: 10px;
+    };
+    @include large{
+      margin-top: 10px;
+    };
+  }
+
+  navbar-toggle:hover{
+    background-color: $g_white;
+  }
+
+  .icon-bar{
+    background-color: $g_yellow;
   }
 
 }

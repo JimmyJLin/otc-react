@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../common/Button';
 import { Row } from 'react-bootstrap';
-import './seminarComponent.css'
+import './_seminarComponent.scss'
 
 export default ({ values: {title, type, length, description, img_url, additional_info, model, model_details, starter_kit, starter_kit_details, benefits, benefits_details, fee, url } }) => {
   return (

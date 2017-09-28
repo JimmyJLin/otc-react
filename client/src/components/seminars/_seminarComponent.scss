@@ -1,0 +1,56 @@
+@import '../variables';
+
+#seminar_container{
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+    @include small{
+      padding: 0 5%;
+    }
+    @include medium{
+      padding: 0 5%;
+    }
+    @include large{
+      padding: 0 5%;
+    }
+    @include ipad{
+      padding: 0 10%;
+    }
+    @include ipad-pro{
+      padding: 0 10%;
+    }
+
+  #seminarComponent_img{
+    width: 100%;
+    height: auto;
+  }
+
+  #seminar_container_title{
+    font-weight: bold;
+  }
+
+  #seminar_container_description{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  #seminar_container_benefits{
+    padding: 0 10%;
+    padding-bottom: 50px;
+    background-color: #fafafa;
+  }
+
+  #seminar_container_fee{
+    padding-bottom: 15px;
+  }
+
+  #span_container, #seminar_container_fee{
+    padding-top: 30px;
+  }
+
+  #span_title{
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+}

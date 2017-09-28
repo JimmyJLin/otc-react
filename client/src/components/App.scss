@@ -1,8 +1,11 @@
 @import 'landing/landing';
-@import 'seminars/seminar';
+@import 'seminars/seminars';
+@import 'seminars/seminarComponent';
 @import 'header/navbar';
 @import 'footer/footer';
 @import 'common/button';
+
+@import 'variables';
 
 #h_line{
   padding-top: 25px;
@@ -10,7 +13,7 @@
   width: 30%;
   border-bottom-width: medium;
   border-bottom-style: solid;
-  border-bottom-color:#ffdf3b;
+  border-bottom-color: $g_yellow;
 }
 
 body{

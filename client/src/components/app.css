@@ -32,6 +32,76 @@
     width: 100%;
     height: auto; }
 
+#index-top {
+  text-align: center;
+  padding-bottom: 50px; }
+
+#seminars-list #seminars {
+  cursor: pointer;
+  padding-bottom: 50px; }
+
+#seminars-list #seminar_title {
+  padding-top: 10%;
+  font-weight: bold; }
+
+#seminars-list #seminar_img {
+  width: 100%;
+  height: auto; }
+
+#seminars-list #img_container {
+  overflow: hidden; }
+
+#seminars-list #seminar_img, #seminars-list #seminar_url {
+  transition-duration: 2s; }
+
+#seminars-list .row:hover #seminar_img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }
+
+#seminars-list .row:hover #seminar_url {
+  transform: none;
+  color: #ffdf3b; }
+
+#seminar_container {
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%; }
+  @media only screen and (min-width: 320px) and (max-width: 374px) {
+    #seminar_container {
+      padding: 0 5%; } }
+  @media only screen and (min-width: 375px) and (max-width: 413px) {
+    #seminar_container {
+      padding: 0 5%; } }
+  @media only screen and (min-width: 414px) and (max-width: 767px) {
+    #seminar_container {
+      padding: 0 5%; } }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #seminar_container {
+      padding: 0 10%; } }
+  @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    #seminar_container {
+      padding: 0 10%; } }
+  #seminar_container #seminarComponent_img {
+    width: 100%;
+    height: auto; }
+  #seminar_container #seminar_container_title {
+    font-weight: bold; }
+  #seminar_container #seminar_container_description {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+  #seminar_container #seminar_container_benefits {
+    padding: 0 10%;
+    padding-bottom: 50px;
+    background-color: #fafafa; }
+  #seminar_container #seminar_container_fee {
+    padding-bottom: 15px; }
+  #seminar_container #span_container, #seminar_container #seminar_container_fee {
+    padding-top: 30px; }
+  #seminar_container #span_title {
+    font-weight: bold;
+    font-size: 1.5em; }
+
 #navbar .navbar {
   background-color: #444444;
   background-image: none; }
@@ -51,6 +121,29 @@
 
 #navbar .navbar-nav a:hover {
   color: #ffdf3b; }
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  #navbar .navbar-brand {
+    width: 75%;
+    padding: 15px 3px; } }
+
+@media only screen and (min-width: 375px) and (max-width: 413px) {
+  #navbar .navbar-brand {
+    padding: 15px 3px; } }
+
+@media only screen and (min-width: 375px) and (max-width: 413px) {
+  #navbar .navbar-toggle {
+    margin-top: 10px; } }
+
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+  #navbar .navbar-toggle {
+    margin-top: 10px; } }
+
+#navbar navbar-toggle:hover {
+  background-color: #ffffff; }
+
+#navbar .icon-bar {
+  background-color: #ffdf3b; }
 
 .btn, .btn.active {
   transition-duration: 2s;

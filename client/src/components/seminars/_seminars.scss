@@ -1,0 +1,48 @@
+@import '../variables';
+
+
+// Page Header css
+#index-top{
+  text-align: center;
+  padding-bottom: 50px;
+}
+// Page Header css ends
+
+// Seminar List css
+#seminars-list{
+  #seminars{
+    cursor: pointer;
+    padding-bottom: 50px;
+  }
+
+  #seminar_title{
+    padding-top: 10%;
+    font-weight: bold;
+  }
+
+  #seminar_img{
+    width: 100%;
+    height: auto;
+  }
+
+  #img_container{
+    overflow: hidden;
+  }
+
+  #seminar_img, #seminar_url{
+    transition-duration: 2s;
+  }
+
+  .row:hover #seminar_img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .row:hover #seminar_url{
+    transform: none;
+    color: $g_yellow;
+  }
+
+}
+// Seminar List css ends
