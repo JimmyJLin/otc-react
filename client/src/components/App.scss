@@ -7,6 +7,7 @@
 @import 'footer/footer';
 @import 'common/button';
 @import 'faq/faq';
+@import 'contact/contact';
 
 
 #h_line{
@@ -20,4 +21,16 @@
 
 body{
   padding-top: 80px;
+}
+
+a{
+  text-decoration: none;
+  transition: 2s;
+  color: $g_black_grey_color;
+}
+
+a:hover{
+  text-decoration: none;
+  cursor: pointer;
+  color: $g_yellow;
 }

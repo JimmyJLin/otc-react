@@ -186,6 +186,20 @@
   #faq .panel {
     cursor: pointer; }
 
+#contact #google #google_map {
+  width: 100%;
+  height: 450px;
+  border: none; }
+
+#contact #contact_us .row {
+  padding-left: 10%;
+  padding-bottom: 10px; }
+
+#contact #contact_us img {
+  width: 25px;
+  height: auto;
+  padding-right: 5px; }
+
 #h_line {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -196,3 +210,13 @@
 
 body {
   padding-top: 80px; }
+
+a {
+  text-decoration: none;
+  transition: 2s;
+  color: #444444; }
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffdf3b; }
