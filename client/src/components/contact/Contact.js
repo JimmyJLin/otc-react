@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Col, Grid, Row, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import Mailto from 'react-mailto';
 
 import address_icon from './images/address_dark.png';
 import phone_icon from './images/phone_dark.png';
@@ -40,7 +41,7 @@ class Contact extends Component {
               </Row>
               <Row>
                 <Image src={email_icon}/>
-                <Link to={'mailto:outstandingtrainingcenter@gmail.com'}> outstandingtrainingcenter@gmail.com </Link>
+                <Mailto email="outstandingtrainingcenter@gmail.com">outstandingtrainingcenter@gmail.com</Mailto>
               </Row>
 
               <h3>DIRECTIONS</h3>
