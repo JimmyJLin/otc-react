@@ -34,7 +34,10 @@ export default ({ values: {title, type, length, description, img_url, additional
           </p>
         </div>
         <h3 id="seminar_container_fee">Seminar Fee: ${fee}</h3>
-        <Button name={'Get More Info'} url={'/register'}/>
+        {/* <Button name={'Get More Info'} url={'/register'}/> */}
+        <div id="register" >
+          <Button name={'Register Today'} url={'/register'}/>
+        </div>
       </div>
     </div>
   )

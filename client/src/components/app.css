@@ -98,6 +98,10 @@
     padding: 0 10%;
     padding-bottom: 50px;
     background-color: #fafafa; }
+    #seminar_container #seminar_container_benefits #register {
+      padding-top: 20px; }
+      #seminar_container #seminar_container_benefits #register a {
+        background-color: #85bb65; }
   #seminar_container #seminar_container_fee {
     padding-bottom: 15px; }
   #seminar_container #span_container, #seminar_container #seminar_container_fee {
