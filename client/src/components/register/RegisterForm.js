@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import { reduxForm, Field } from 'redux-form';
+import { withRouter } from 'react-router-dom';
 import RegisterField from './RegisterField';
 import validateEmails from '../utils/validateEmails';
+import * as actions from '../../actions';
 
 import './_register.scss'
 
@@ -14,9 +17,13 @@ const FIELDS = [
 
 class RegisterForm extends Component {
 
-  handleSubmit(values) {
-    console.log(values);
+  modelSubmit(values, history) {
+    // console.log(this.props.submitModelRegistration)
+
+    // console.log('onModleSubmit', values)
+    this.props.submitModelRegistration(values, history)
   }
+
   renderFields() {
     return FIELDS.map(({ label, name, type}) => {
       return (
@@ -33,7 +40,7 @@ class RegisterForm extends Component {
   render() {
     return (
       <div id="registerForm" className="center-block">
-        <form onSubmit={this.props.handleSubmit(values => console.log(values))}>
+        <form onSubmit={this.props.handleSubmit((values, history) => this.modelSubmit(values, history))}>
           { this.renderFields() }
           <div id="registerField">
             <label>Model Type</label>
@@ -50,7 +57,8 @@ class RegisterForm extends Component {
               </Field>
             </div>
           </div>
-          <button type="submit" className="btn btn-primary">
+          <button
+            type="submit" className="btn btn-primary">
             Submit
           </button>
         </form>
@@ -73,7 +81,13 @@ function validate(values) {
   return errors;
 }
 
-export default reduxForm({
+function mapStateToProps(state){
+  return { formValues: state.form.modelForm}
+}
+
+RegisterForm = reduxForm({
   validate,
-  form: 'registerForm'
+  form: 'modelForm'
 })(RegisterForm)
+RegisterForm = connect(mapStateToProps, actions)(withRouter(RegisterForm))
+export default RegisterForm
