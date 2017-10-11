@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import RegisterForm from './RegisterForm';
+
+import './_register.scss'
 
 class Register extends Component {
   render() {
     return (
-      <div className="container-fluid">
-        <h2>Register Page</h2>
+      <div id="register" className="container-fluid">
+        <h2>Model Registration Form</h2>
+        <RegisterForm />
       </div>
     );
   }

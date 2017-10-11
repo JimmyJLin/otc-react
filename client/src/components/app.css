@@ -200,6 +200,31 @@
   height: auto;
   padding-right: 5px; }
 
+#register h2 {
+  text-align: center; }
+
+#registerForm {
+  padding-top: 50px;
+  text-align: center; }
+  #registerForm label {
+    padding-right: 15px; }
+  #registerForm input {
+    width: 25%;
+    padding: 10px;
+    border: none;
+    border-bottom: solid 2px #c9c9c9;
+    transition: border 0.3s; }
+  #registerForm input:focus, #registerForm input.focus {
+    border-bottom: solid 2px #969696; }
+  #registerForm select {
+    height: 30px;
+    width: 25%;
+    margin: 10px; }
+  #registerForm .red-text {
+    color: red; }
+  #registerForm .btn {
+    margin-top: 30px; }
+
 #h_line {
   padding-top: 25px;
   padding-bottom: 25px;

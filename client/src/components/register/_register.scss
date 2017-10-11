@@ -1,0 +1,40 @@
+#register{
+  h2{
+    text-align: center;
+  }
+}
+
+#registerForm{
+  padding-top: 50px;
+  text-align: center;
+
+  label{
+    padding-right: 15px;
+  }
+
+  input{
+    width: 25%;
+    padding: 10px;
+    border: none;
+    border-bottom: solid 2px #c9c9c9;
+    transition: border 0.3s;
+  }
+
+  input:focus, input.focus{
+    border-bottom: solid 2px #969696;
+  }
+
+  select{
+    height: 30px;
+    width: 25%;
+    margin: 10px;
+  }
+
+  .red-text{
+    color: red;
+  }
+
+  .btn{
+    margin-top: 30px;
+  }
+}
