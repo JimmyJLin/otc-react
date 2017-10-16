@@ -18,9 +18,6 @@ const FIELDS = [
 class RegisterForm extends Component {
 
   modelSubmit(values, history) {
-    // console.log(this.props.submitModelRegistration)
-
-    // console.log('onModleSubmit', values)
     this.props.submitModelRegistration(values, history)
   }
 
