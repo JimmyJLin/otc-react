@@ -1,3 +1,5 @@
+const mongoose = require('mongoose');
+const Model = mongoose.model('models');
 
 module.exports = app => {
   app.get('/api/registration/models', (req, res) => {
@@ -6,9 +8,20 @@ module.exports = app => {
     res.status(200).send('some text');
   });
 
-  app.post('/api/registration/models', (req, res) => {
-    // const { f_name, l_name, emails, modelType, phone } = req.body;
-    console.log('data', req.body)
+  app.post('/api/registration/models', async (req, res) => {
+    const { f_name, l_name, emails, modelType, phone } = req.body;
+
+    const model = new Model({
+      f_name,
+      l_name,
+      emails,
+      modelType,
+      phone,
+      date: Date.now()
+    })
+
+    await model.save();
+
     res.redirect('/');
 
   })
