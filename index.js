@@ -7,6 +7,8 @@ app.use(bodyParser.json());
 
 const path = require('path');
 
+require('./routes/registrationRoutes')(app);
+
 if (process.env.NODE_ENV === 'production') {
   // Express will serve up production assets
   // Like our main.js file, or main.css file!
