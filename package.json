@@ -21,6 +21,7 @@
     "concurrently": "^3.5.0",
     "express": "^4.15.5",
     "mongoose": "^4.12.3",
-    "nodemon": "^1.12.1"
+    "nodemon": "^1.12.1",
+    "sendgrid": "^5.2.3"
   }
 }

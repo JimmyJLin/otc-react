@@ -1,4 +1,7 @@
 const mongoose = require('mongoose');
+const Mailer = require('../services/Mailer');
+const modelTemplate = require('../services/emailTemplates/modelTemplate');
+
 const Model = mongoose.model('models');
 
 module.exports = app => {
@@ -20,10 +23,14 @@ module.exports = app => {
       date: Date.now()
     })
 
-    await model.save();
+    const mailer = new Mailer(model, modelTemplate(model));
+    try {
+      await mailer.send()
+      await model.save();
 
-    res.redirect('/');
-
+      res.redirect('/');
+    } catch (err) {
+      res.status(422).send(err);
+    }
   })
-
 }
