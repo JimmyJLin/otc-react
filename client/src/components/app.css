@@ -200,38 +200,19 @@
   height: auto;
   padding-right: 5px; }
 
-#register h2 {
+#form_container {
   text-align: center; }
-
-#registerForm {
-  padding-top: 50px;
-  text-align: center; }
-  #registerForm label {
-    padding-right: 15px; }
-  #registerForm input {
-    width: 25%;
-    padding: 10px;
-    border: none;
-    border-bottom: solid 2px #c9c9c9;
-    transition: border 0.3s; }
-  #registerForm input:focus, #registerForm input.focus {
-    border-bottom: solid 2px #969696; }
-  #registerForm select {
-    height: 30px;
-    width: 25%;
-    margin: 10px; }
-  #registerForm .red-text {
-    color: red; }
-  #registerForm .btn {
-    margin-top: 30px; }
+  #form_container h5 {
+    padding-top: 5px; }
 
 #registerForm, #modelReview {
   padding-top: 50px;
   text-align: center; }
   #registerForm .btn, #modelReview .btn {
-    margin-top: 30px; }
+    margin-top: 30px;
+    width: 125px; }
   #registerForm .cancel, #modelReview .cancel {
-    margin-right: 15%;
+    margin-right: 10%;
     background-color: red; }
   #registerForm .next, #modelReview .next {
     background-color: green; }
@@ -242,22 +223,34 @@
   padding-right: 15px; }
 
 #registerForm input {
-  width: 25%;
+  width: 40%;
   padding: 10px;
   border: none;
   border-bottom: solid 2px #c9c9c9;
   transition: border 0.3s; }
+  @media only screen and (min-width: 320px) and (max-width: 374px) {
+    #registerForm input {
+      width: 100%; } }
+  @media only screen and (min-width: 375px) and (max-width: 413px) {
+    #registerForm input {
+      width: 100%; } }
+  @media only screen and (min-width: 414px) and (max-width: 767px) {
+    #registerForm input {
+      width: 100%; } }
 
 #registerForm input:focus, #registerForm input.focus {
   border-bottom: solid 2px #969696; }
 
 #registerForm select {
   height: 30px;
-  width: 25%;
+  width: 40%;
   margin: 10px; }
 
 #registerForm .red-text {
   color: red; }
+
+#modelReview #field_list {
+  padding: 15px 0px; }
 
 #h_line {
   padding-top: 25px;

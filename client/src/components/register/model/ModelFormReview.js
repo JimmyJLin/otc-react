@@ -9,7 +9,7 @@ import './_model.scss'
 const ModelFormReview = ({ onCancel, formValues, submitModel, history }) => {
   const reviewFields = formFields.map(({ name, label }) => {
     return (
-      <div key={name}>
+      <div id="field_list" key={name}>
         <label>{label}</label>
         <div>
           {formValues[name]}
@@ -36,7 +36,6 @@ const ModelFormReview = ({ onCancel, formValues, submitModel, history }) => {
 }
 
 function mapStateToProps(state){
-  console.log(state)
   return { formValues: state.form.modelForm.values };
 }
 

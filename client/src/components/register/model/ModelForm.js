@@ -31,11 +31,10 @@ class ModelForm extends Component {
           <div id="registerField">
             <label>Model Type</label>
             <div>
-              <Field name="modleType" component="select">
+              <Field name="modelType" component="select">
                 <option />
                 <option value="HairStroke">Hair Stroke</option>
                 <option value="Powdered">Powdered</option>
-                <option value="Lips">Lips</option>
                 <option value="Lips">Lips</option>
                 <option value="Eyeliner">Eyeliner</option>
                 <option value="Areola">Areola</option>

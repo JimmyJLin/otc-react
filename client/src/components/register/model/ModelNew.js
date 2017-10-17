@@ -31,7 +31,9 @@ class ModelNew extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div id="form_container" className="container">
+        <h2>Model Registration Form</h2>
+        <h5>If you are interested in becoming one of our model for various Microblading Techniques, please fill out the form below.</h5>
         {this.renderContent()}
       </div>
     )

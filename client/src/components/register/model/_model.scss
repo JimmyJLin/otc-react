@@ -1,12 +1,20 @@
+#form_container{
+  text-align: center;
+  h5{
+    padding-top: 5px;
+  }
+}
+
 #registerForm, #modelReview{
   padding-top: 50px;
   text-align: center;
 
   .btn{
     margin-top: 30px;
+    width: 125px;
   }
   .cancel{
-    margin-right: 15%;
+    margin-right: 10%;
     background-color: red;
   }
   .next{
@@ -25,11 +33,20 @@
   }
 
   input{
-    width: 25%;
+    width: 40%;
     padding: 10px;
     border: none;
     border-bottom: solid 2px #c9c9c9;
     transition: border 0.3s;
+    @include small{
+      width: 100%;
+    }
+    @include medium{
+      width: 100%;
+    }
+    @include large{
+      width: 100%;
+    }
   }
 
   input:focus, input.focus{
@@ -38,7 +55,7 @@
 
   select{
     height: 30px;
-    width: 25%;
+    width: 40%;
     margin: 10px;
   }
 
@@ -50,5 +67,7 @@
 }
 
 #modelReview{
-
+  #field_list{
+    padding: 15px 0px;
+  }
 }

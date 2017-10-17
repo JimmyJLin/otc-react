@@ -8,7 +8,7 @@ class Faq extends Component {
   renderFaq() {
     return seminarData.faq.map(({id, question, answer}) => {
       return (
-        <Panel header={question} eventKey={id}>
+        <Panel key={id} header={question} eventKey={id}>
           {answer}
         </Panel>
       )
