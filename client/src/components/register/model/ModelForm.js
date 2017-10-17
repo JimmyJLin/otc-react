@@ -58,7 +58,7 @@ class ModelForm extends Component {
 function validate(values) {
   const errors = {};
 
-  errors.recipients = validateEmails(values.recipients || '');
+  errors.emails = validateEmails(values.emails || '');
 
   formFields.forEach(({ name }) => {
     if(!values[name]) {

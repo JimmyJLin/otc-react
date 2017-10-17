@@ -20,7 +20,7 @@ const ModelFormReview = ({ onCancel, formValues, submitModel, history }) => {
 
   return (
     <div id="modelReview">
-      <h5>Please confirm your entries</h5>
+      <h5>Please confirm your informations</h5>
       {reviewFields}
       <button className="btn cancel" onClick={onCancel}>
         Back
@@ -29,7 +29,7 @@ const ModelFormReview = ({ onCancel, formValues, submitModel, history }) => {
         onClick={() => submitModel(formValues, history)}
         className="btn next"
       >
-        Send Survey
+        Submit
       </button>
     </div>
   )
