@@ -225,6 +225,40 @@
   #registerForm .btn {
     margin-top: 30px; }
 
+#registerForm, #modelReview {
+  padding-top: 50px;
+  text-align: center; }
+  #registerForm .btn, #modelReview .btn {
+    margin-top: 30px; }
+  #registerForm .cancel, #modelReview .cancel {
+    margin-right: 15%;
+    background-color: red; }
+  #registerForm .next, #modelReview .next {
+    background-color: green; }
+  #registerForm .btn:hover, #modelReview .btn:hover {
+    color: white; }
+
+#registerForm label {
+  padding-right: 15px; }
+
+#registerForm input {
+  width: 25%;
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+  transition: border 0.3s; }
+
+#registerForm input:focus, #registerForm input.focus {
+  border-bottom: solid 2px #969696; }
+
+#registerForm select {
+  height: 30px;
+  width: 25%;
+  margin: 10px; }
+
+#registerForm .red-text {
+  color: red; }
+
 #h_line {
   padding-top: 25px;
   padding-bottom: 25px;

@@ -6,7 +6,7 @@ import Footer from './footer/Footer';
 import Landing from './landing/Landing';
 import Contact from './contact/Contact';
 import Faq from './faq/Faq';
-import Register from './register/Register';
+import Register from './register/model/ModelNew';
 import Seminars from './seminars/Seminars';
 import Hairstrokes from './seminars/Hair_strokes';
 import Powdered from './seminars/Powdered';

@@ -1,0 +1,54 @@
+#registerForm, #modelReview{
+  padding-top: 50px;
+  text-align: center;
+
+  .btn{
+    margin-top: 30px;
+  }
+  .cancel{
+    margin-right: 15%;
+    background-color: red;
+  }
+  .next{
+    background-color: green;
+  }
+
+  .btn:hover{
+    color: white;
+  }
+}
+
+#registerForm{
+
+  label{
+    padding-right: 15px;
+  }
+
+  input{
+    width: 25%;
+    padding: 10px;
+    border: none;
+    border-bottom: solid 2px #c9c9c9;
+    transition: border 0.3s;
+  }
+
+  input:focus, input.focus{
+    border-bottom: solid 2px #969696;
+  }
+
+  select{
+    height: 30px;
+    width: 25%;
+    margin: 10px;
+  }
+
+  .red-text{
+    color: red;
+  }
+
+
+}
+
+#modelReview{
+
+}
