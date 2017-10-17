@@ -1,6 +1,7 @@
 const keys = require('../../config/keys');
 
 module.exports = (model) => {
+  console.log('inside Model Email')
 
   return `
     <html>

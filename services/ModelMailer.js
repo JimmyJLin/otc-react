@@ -2,15 +2,16 @@ const sendgrid = require('sendgrid');
 const helper = sendgrid.mail;
 const keys = require('../config/keys');
 
-class Mailer extends helper.Mail {
+class ModelMailer extends helper.Mail {
   constructor({ subject, emails }, content) {
     super();
+    console.log("hellooo inside ModelMailer")
 
     this.sgApi =  sendgrid(keys.sendGridKey);
     this.from_email = new helper.Email('no-reply@outstandingcenter.com');
     this.subject = 'New Model Signup';
     this.body = new helper.Content('text/html', content);
-    this.emails = this.formatAddresses(emails);
+    this.emails = this.formatAddresses('liweibeauty88@gmail.com');
 
     this.addContent(this.body);
     this.addClickTracking();
@@ -47,4 +48,4 @@ class Mailer extends helper.Mail {
   }
 }
 
-module.exports = Mailer;
+module.exports = ModelMailer;
