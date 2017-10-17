@@ -1,5 +1,4 @@
 import axios from 'axios';
-import { reset } from 'redux-form';
 
 export const submitModel = (values, history) => async dispatch => {
   // console.log('values inside action', values)
