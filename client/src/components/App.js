@@ -6,7 +6,7 @@ import Footer from './footer/Footer';
 import Landing from './landing/Landing';
 import Contact from './contact/Contact';
 import Faq from './faq/Faq';
-import Register from './register/model/ModelNew';
+import Model from './register/model/ModelNew';
 import Seminars from './seminars/Seminars';
 import Hairstrokes from './seminars/Hair_strokes';
 import Powdered from './seminars/Powdered';
@@ -28,7 +28,7 @@ class App extends Component {
             <Route exact path="/" component={Landing}/>
             <Route exact path="/contact" component={Contact}/>
             <Route exact path="/faq" component={Faq}/>
-            <Route exact path="/register" component={Register}/>
+            <Route exact path="/register/model" component={Model}/>
             <Route exact path="/seminars" component={Seminars}/>
             <Route exact path="/seminars/hair_strokes" component={Hairstrokes}/>
             <Route exact path="/seminars/powdered" component={Powdered}/>

@@ -41,5 +41,5 @@ class ModelNew extends Component {
 }
 
 export default reduxForm({
-  form: 'ModelForm'
+  form: 'modelForm'
 })(ModelNew);

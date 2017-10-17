@@ -45,7 +45,7 @@ class Header extends Component {
                   <MenuItem eventKey={1.7}>Others</MenuItem>
                 </LinkContainer>
               </NavDropdown>
-              <LinkContainer to={'/register'}>
+              <LinkContainer to={'/register/model'}>
                 <NavItem eventKey={2}>Model</NavItem>
               </LinkContainer>
               <LinkContainer to={'/faq'}>
