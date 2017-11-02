@@ -14,6 +14,7 @@ app.use(bodyParser.json());
 const path = require('path');
 
 require('./routes/registrationRoutes')(app);
+require('./routes/billingRoutes')(app);
 
 if (process.env.NODE_ENV === 'production') {
   // Express will serve up production assets
