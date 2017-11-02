@@ -1,9 +1,12 @@
 import React from 'react';
 import Button from '../common/Button';
 import { Row } from 'react-bootstrap';
+import Stripe from '../stripe/Stripe';
+
 import './_seminarComponent.scss'
 
-export default ({ values: {title, type, length, description, img_url, additional_info, model, model_details, starter_kit, starter_kit_details, benefits, benefits_details, fee, url } }) => {
+export default ({ values: {title, type, length, description, img_url, additional_info, model, model_details, starter_kit, starter_kit_details, benefits, benefits_details, fee, url, stripe_fee } }) => {
+  console.log('fee', stripe_fee)
   return (
     <div id="seminar_container" key={title} className="container-fluid">
       <div id="h_line" className="center-block"></div>
@@ -36,7 +39,8 @@ export default ({ values: {title, type, length, description, img_url, additional
         <h3 id="seminar_container_fee">Seminar Fee: ${fee}</h3>
         {/* <Button name={'Get More Info'} url={'/register'}/> */}
         <div id="register" >
-          <Button name={'Register Today'} url={'/register'}/>
+          <Stripe fee={stripe_fee} title={title}/>
+          {/* <Button name={'Register Today'} url={'/register'}/> */}
         </div>
       </div>
     </div>

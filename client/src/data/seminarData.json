@@ -109,7 +109,8 @@
       "starter_kit_details": "Each student will receive a premimum starter kits including: various colors, microblading pen & needles, various support proucts such as anesthetic and retail products.",
       "benefits": "20% OFF all products & classes.",
       "benefits_details": "After attending any of our seminar, each students will be able to purchase products directly through us and receive 20% OFF all purchases and any future seminars.",
-      "fee": "1800"
+      "fee": "1800",
+      "stripe_fee": "180000"
     },
     {
       "id": "2",
@@ -128,7 +129,8 @@
       "benefits": "20% OFF all products & classes.",
       "benefits": "20% OFF all products & classes",
       "benefits_details": "After attending any of our seminar, each students will be able to purchase products directly through us and receive 20% OFF all purchases and any future seminars.",
-      "fee": "1000"
+      "fee": "1000",
+      "stripe_fee": "100000"
     },
     {
       "id": "3",
@@ -146,7 +148,8 @@
       "starter_kit_details": "On the day of Seminar, there will be live demonstration of the Microblading Technique by our experienced instructor and in the afternoon each students will get an opportunity to demonstrate what they learn through live models (each students needs to bring their own model).",
       "benefits": "20% OFF all products & classes",
       "benefits_details": "After attending any of our seminar, each students will be able to purchase products directly through us and receive 20% OFF all purchases and any future seminars.",
-      "fee": "1200"
+      "fee": "1200",
+      "stripe_fee": "120000"
     },
     {
       "id": "4",
@@ -164,7 +167,8 @@
       "starter_kit_details": "Each student will receive a premimum starter kits including: various colors, pen & needles, various support proucts such as anesthetic and retail products.",
       "benefits": "20% OFF all products & classes",
       "benefits_details": "After attending any of our seminar, each students will be able to purchase products directly through us and receive 20% OFF all purchases and any future seminars.",
-      "fee": "1000"
+      "fee": "1000",
+      "stripe_fee": "100000"
     },
     {
       "id": "5",
@@ -182,7 +186,8 @@
       "starter_kit_details": "Each student will receive a premimum starter kits including: various colors, pen & needles, various support proucts such as anesthetic and retail products.",
       "benefits": "20% OFF all products & classes",
       "benefits_details": "After attending any of our seminar, each students will be able to purchase products directly through us and receive 20% OFF all purchases and any future seminars.",
-      "fee": "1000"
+      "fee": "1000",
+      "stripe_fee": "100000"
     },
     {
       "id": "6",
@@ -200,7 +205,8 @@
       "starter_kit_details": "Each student will receive a premimum starter kits including: various colors, pen & needles, various support proucts such as anesthetic and retail products.",
       "benefits": "20% OFF all products & classes",
       "benefits_details": "After attending any of our seminar, each students will be able to purchase products directly through us and receive 20% OFF all purchases and any future seminars.",
-      "fee": "1000"
+      "fee": "1000",
+      "stripe_fee": "100000"
     },
     {
       "id": "7",
@@ -218,7 +224,8 @@
       "starter_kit_details": "Each student will receive a premimum starter kits including: various colors, pen & needles, various support proucts such as anesthetic and retail products.",
       "benefits": "20% OFF all products & classes",
       "benefits_details": "After attending any of our seminar, each students will be able to purchase products directly through us and receive 20% OFF all purchases and any future seminars.",
-      "fee": "1000"
+      "fee": "1000",
+      "stripe_fee": "100000"
     }
   ],
   "others": [
